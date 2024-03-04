@@ -10201,3 +10201,19 @@ aside.sidebar.full-style {
     transform: scale(1);
     visibility: visible;
 }
+
+
+/* Custom Css */
+.photo-box .row-list{
+    display: flex !important;
+    gap: 10px;
+    margin-bottom: 10px !important;
+}
+.photo-box .row-list .photos-item{
+    width: 33.333%;
+}
+.photo-box .row-list .photos-item img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
